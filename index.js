@@ -5,7 +5,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.send({"version":"1.0","status":"ok"});
-}
+});
 
 app.get("/posts", (req, res) => {
   fs.readFile('./data/data.json', 'utf8', (err, data) => {
