@@ -1,5 +1,6 @@
 const express = require("express");
 const fs = require("fs");
+const path = require("path");
 
 const app = express();
 
@@ -8,14 +9,10 @@ app.get("/", (req, res) => {
 });
 
 app.get("/posts", (req, res) => {
-  fs.readFile('./data/data.json', 'utf8', (err, data) => {
-    if (err) {
-      console.error(err);
-      return;
-    }
-    res.setHeader('Content-Type', 'application/json');
-    res.send(data);
-  });
+  const file = path.join(process.cwd(), 'data', 'data.json');
+  const stringified = fs.readFileSync(file, 'utf8');
+  res.setHeader('Content-Type', 'application/json');
+  return res.end(stringified);
 });
 
 app.listen(3000, () => {
