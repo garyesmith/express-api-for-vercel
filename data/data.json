@@ -179,17 +179,10 @@
 	"authors": [{
 		"createdAt": "2022-08-06T05:29:26.039Z",
 		"name": "Jack Dunn",
-		"avatar": "/avatar/404.png",
+		"avatar": "/avatar/1.png",
 		"updatedAt": "2022-09-17T14:01:12.108Z",
-		"id": "2",
+		"id": "52",
 		"postId": "6"
 	}],
-	"comments": [{
-		"createdAt": "2022-06-01T20:48:00.747Z",
-		"title": "Magnis dis parturient montes, nascetur ",
-		"description": "Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-		"updatedAt": "2022-09-17T13:13:59.996Z",
-		"id": "2",
-		"postId": "6"
-	}]
+	"comments": []
 }]
