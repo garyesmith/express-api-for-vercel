@@ -4,7 +4,7 @@ This repository implements a Node/Express API that serves up static sample blog 
 
 This API is intended for use as a back-end to serve data to the front-end code in my [NextJS Blog](https://github.com/garyesmith/nextjs-blog) repository.
 
-Live Vercel Deployment: https://express-api-for-vercel.vercel.app/posts
+Live Vercel Deployment: https://express-api-for-vercel-garyesmith.vercel.app/posts
 
 ## Usage
 
